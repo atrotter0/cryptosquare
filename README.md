@@ -10,7 +10,21 @@ _will take text input and build a cryptosquare!_
 
 ## Specs
 
-1. 
+1. page prompts user for input
+1. page does not accept blank
+1. input has spaces removed
+1. input has all non-alphanumeric characters removed
+1. input is downcased
+1. input is split into array
+1. based on length of array, decide size of Cryptosquare
+1. if length is perfect square, use sqrt of array length for width and height
+1. if array length is not a perfect square, use smallest square for width which is larger than array length
+1. if not perfect square, height should be width -1
+1. code builds new output array
+1. each row of x length is pushed to a parent array
+1. code appropriately pulls values out of each stored array: [0][0], [1][0], [2][0]... [0][1], [1][1], [2][1].. etc
+1. on submit, page displays original message as well as encrypted message
+
 
 ## Setup/Contribution Requirements
 
